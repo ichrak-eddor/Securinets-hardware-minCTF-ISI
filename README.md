@@ -21,8 +21,8 @@ After opening the link we will find a circuit with simulation and a code
 
 ![image](https://user-images.githubusercontent.com/60358423/208291604-5822d862-7173-48bc-9cfe-1d31acbc6828.png)
 
-After simulating the circuit we find out that the led blinks with diffrent timing 
-and with understunding the code we find out that it's a morse code msg 
+After simulating the circuit we find out that the led blinks with different timing 
+and with understanding the code we find out that it's a morse code msg 
 
 ![image](https://user-images.githubusercontent.com/60358423/208291651-4bdac990-255a-407f-8adf-fd8941afee6b.png)
 
@@ -100,7 +100,7 @@ void loop() {
 
 
 
-What we understund from the code is that for hight delay (500) and low delay (500) it means a . 
+What we understand from the code is that for high delay (500) and low delay (500) it means a . 
 
 ```bash
  digitalWrite(LED, HIGH);
@@ -130,7 +130,7 @@ this is the morse code that we manage to find
 
 L     I      C      H
 
-Flag = Securinets{LICH}
+Flag / Securinets{LICH}
 
 
 
@@ -150,7 +150,7 @@ all i know it's UTF-8 encoding
 
 First we need to understand the message length
 
-The time scale ends in 48 wich menas 48/8= 6 because it's a UTF-8 enconding 
+The time scale ends in 48 wHich menas 48/8= 6 because it's a UTF-8 encoding 
 
 which means there is 6 letters
 
@@ -268,11 +268,11 @@ CADB/ OR CADB/
 So the output = CADB/+CAD/B
 Or output = CAD/B+CADB/
 
-flag = Securinets{CAD/B+CADB/}
+flag : Securinets{CAD/B+CADB/}
 
 or
 
-flag = Securinets{CADB/+CAD/B}
+flag : Securinets{CADB/+CAD/B}
 
 
 
