@@ -277,7 +277,52 @@ flag : Securinets{CADB/+CAD/B}
 
 
 
-## Escape Room
+## Escape Room | 800 points
+
+
+### Description :
+
+can you manage to find all the hidden flags ?
+
+enjoy the game
+
+Securinets{put your flags here}
+
+no spaces allowed
+
+
+
+### Solution 
+
+After we get into the world let's try exploiting the game 
+
+![image](https://user-images.githubusercontent.com/60358423/208297997-04fc6b4e-d5ae-4dd6-b5af-db5078095ac4.png)
+
+We found an LCd with "guess the password" and password :BS1XFW7sML93pT9ycQxCqM
+
+![image](https://user-images.githubusercontent.com/60358423/208298034-1dc6b643-9c17-43f1-9499-45bf007e4038.png)
+
+BS1XFW7sML93pT9ycQxCqM is base58
+
+![image](https://user-images.githubusercontent.com/60358423/208298199-79edca67-01dd-4cc8-9067-3211f2f7661e.png)
+
+okey so the password is : TyManaarfch aleh
+
+![image](https://user-images.githubusercontent.com/60358423/208298252-2a875c02-9a9a-490c-95a0-b5ff75440eaa.png)
+If we look close we will see "write the password here " so we will enter the password 
+
+![image](https://user-images.githubusercontent.com/60358423/208298368-5db24d2b-7701-4bbf-b298-681596da6f2c.png)
+
+
+and here we got a flag "hOpeAmALtouJ4w"
+
+![image](https://user-images.githubusercontent.com/60358423/208298403-81652083-c002-41b4-b9aa-2cf86437580f.png)
+
+now this can be salved in an easier way 
+so if we look close we willl find out that the LCD are controlled using a microcontroller so if we follow the circuit cable we will see that there is a microcontroller behind the wall 
+
+
+
 
 
 
