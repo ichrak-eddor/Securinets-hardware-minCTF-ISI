@@ -1,4 +1,4 @@
-# Securinets-hardware-minCTF-ISI
+# Securinets-hardware-miniCTF-ISI
 
 
 ## Blind | 300 Point
