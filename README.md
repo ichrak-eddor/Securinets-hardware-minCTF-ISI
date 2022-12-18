@@ -323,6 +323,95 @@ so if we look close we willl find out that the LCD are controlled using a microc
 
 
 
+![lcd](https://user-images.githubusercontent.com/60358423/208298994-40532b1b-8d96-4335-bd9c-767a69d9d34c.jpg)
+![image](https://user-images.githubusercontent.com/60358423/208299019-7c1b656e-17fe-44f6-982d-399776496de3.png)
+
+and here we find a microcontroller 
+
+![image](https://user-images.githubusercontent.com/60358423/208299049-fbde9531-eb3b-4c31-ad36-e9ba3e7104dd.png)
+
+![image](https://user-images.githubusercontent.com/60358423/208299068-e9ce1427-75ac-43da-b7e2-48ea8b29128c.png)
+
+
+now let's look for the next flag 
+we find a computer 
+
+![image](https://user-images.githubusercontent.com/60358423/208299094-4657a674-72df-42b8-a5ac-2794ce72601e.png)
+![image](https://user-images.githubusercontent.com/60358423/208299103-22429814-7b7f-41cf-b85d-d6f8c750e848.png)
+
+there is a notepad ut it's empty so let's load a project 
+![image](https://user-images.githubusercontent.com/60358423/208299117-eaff267d-cca0-4fd2-9a50-08328e679e0a.png)
+
+we found this 
+![image](https://user-images.githubusercontent.com/60358423/208299154-156e5e68-f2c3-47b7-b29c-839b3329e6d1.png)
+
+![image](https://user-images.githubusercontent.com/60358423/208299173-c7959a87-46f7-4284-92aa-5839c907849f.png)
+
+it's encoded message so let's try to decode it 
+ the base64 returned a binary
+![image](https://user-images.githubusercontent.com/60358423/208299252-a19f09c3-1778-400d-9360-76f97e8ac228.png)
+
+
+so the output is : 
+
+welcome to game 1 
+you got the first part of the flag M1n3T3ssT3
+
+here is our first flag : M1n3T3ssT3 
+now after we find our second flag let's keep looking 
+
+![image](https://user-images.githubusercontent.com/60358423/208299381-c40231a1-7ccc-46c1-a8cb-8ac9b9375c9c.png)
+
+![image](https://user-images.githubusercontent.com/60358423/208299400-c454fdeb-b852-4fa4-baef-e5161c0199c2.png)
+
+![image](https://user-images.githubusercontent.com/60358423/208299374-cb9a62b4-c88b-4e5b-a647-ebbc8d8a131b.png)
+
+now in the chests we found 4 USB with flag name so let's get back into the computer 
+
+
+let's connect the USB to the computer and see what we can find 
+
+![image](https://user-images.githubusercontent.com/60358423/208299512-c57b6a87-1dd0-4308-8016-b1346913b92d.png)
+
+this is the available command  
+![image](https://user-images.githubusercontent.com/60358423/208299584-2cacd572-e975-4008-934d-c48080086674.png)
+
+but it keep showing that the USB are empty 
+
+![image](https://user-images.githubusercontent.com/60358423/208299693-ee92cf7c-3689-4d05-a6da-8faaa688efe8.png)
+
+
+![image](https://user-images.githubusercontent.com/60358423/208299714-302c580c-e2c8-4344-a14f-acf3ae1c90d3.png)
+
+
+![image](https://user-images.githubusercontent.com/60358423/208299733-0050ec29-a3c8-4599-b597-2e6a1f46108b.png)
+
+So the file Flag3 only show us flag 3 so we understand that we are looki,g for our last flag3 
+![image](https://user-images.githubusercontent.com/60358423/208299751-c62b1679-4b9e-47bd-abaa-2d675cc10c7c.png)
+
+the next file flag shows us this
+which is a morse code 
+
+![image](https://user-images.githubusercontent.com/60358423/208299773-863f0553-fa81-4d84-af86-a6f7ad434013.png)
+
+so it wil look like this :
+
+-... .---- .-. -.-. .... .---- .--- .--- .--
+
+which means : 
+
+b1rch1jjw
+
+
+
+so the flag : Securinets{M1n3T3ssT3hOpeAmALtouJ4wb1rch1jjw}
+
+
+
+
+
+
+
 
 
 
