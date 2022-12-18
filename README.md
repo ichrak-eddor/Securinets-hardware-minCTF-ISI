@@ -134,6 +134,6 @@ Flag = Securinets{LICH}
 
 ##  Digital analyser
 
-![Digital Analyser](https://user-images.githubusercontent.com/60358423/208292182-a7de0165-6295-45d2-af11-6c357f224733.jpeg)
+![img](image/Digital Analyser.jpeg)
 
 
